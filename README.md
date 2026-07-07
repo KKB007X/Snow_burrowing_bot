@@ -5,7 +5,7 @@
 > Developed at the **Indian Institute of Technology, Mandi** — School of Mechanical & Materials Engineering, School of Biosciences and Bioengineering, School of Computing and Electrical Engineering, and School of Civil and Environmental Engineering.
 
 <p align="center">
-  <img src="docs/images/snow_burrowing_bot.jpg" alt="Snow Burrowing Bot prototype" width="600"/>
+  <img src="docs/images/snow_burrowing_bot.png" alt="Snow Burrowing Bot prototype" width="600"/>
   <br/>
   <em>Prototype of the Snow Burrowing Bot</em>
 </p>
@@ -81,7 +81,7 @@ The robot is a **4-segment articulated snake robot**. Each segment consists of:
 **Safety:** Inline fuses, voltage regulators, and overcurrent protection guard against stalls and surges. A wireless emergency-stop signal can halt the system instantly. The modular segment design allows quick field repair without full disassembly.
 
 <p align="center">
-  <img src="docs/images/joint_mechanism.jpg" alt="CAD model of the articulated joint mechanism" width="600"/>
+  <img src="docs/images/joint_mechanism.png" alt="CAD model of the articulated joint mechanism" width="600"/>
   <br/>
   <em>CAD model of the articulated joint mechanism connecting two screw propulsion modules</em>
 </p>
@@ -142,7 +142,7 @@ The build is organized into three stages: **mechanical construction**, **electro
 - A detachable auger drill head, driven by an independent DC geared motor, is mounted on the front segment for initial snow penetration.
 
 <p align="center">
-  <img src="docs/images/mechanical_assembly.jpg" alt="Early-stage mechanical assembly of the Snow Burrowing Bot" width="600"/>
+  <img src="docs/images/mechanical_assembly.png" alt="Early-stage mechanical assembly of the Snow Burrowing Bot" width="600"/>
   <br/>
   <em>Early-stage mechanical assembly showing PVC backbone segments, geared joint mechanism, and servo-based articulation used for inter-segment motion</em>
 </p>
@@ -258,9 +258,9 @@ snow-burrowing-bot/
 ├── docs/
 │   ├── Snow_Burrowing_Bot.pdf
 │   └── images/
-│       ├── snow_burrowing_bot.jpg
-│       ├── joint_mechanism.jpg
-│       └── mechanical_assembly.jpg
+│       ├── snow_burrowing_bot.png
+│       ├── joint_mechanism.png
+│       └── mechanical_assembly.png
 ├── LICENSE                  # MIT (firmware)
 ├── LICENSE-HARDWARE         # CERN-OHL-S (hardware/design files)
 └── README.md
