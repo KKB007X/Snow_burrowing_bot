@@ -80,6 +80,12 @@ The robot is a **4-segment articulated snake robot**. Each segment consists of:
 
 **Safety:** Inline fuses, voltage regulators, and overcurrent protection guard against stalls and surges. A wireless emergency-stop signal can halt the system instantly. The modular segment design allows quick field repair without full disassembly.
 
+<p align="center">
+  <img src="docs/images/joint_mechanism.jpg" alt="CAD model of the articulated joint mechanism" width="600"/>
+  <br/>
+  <em>CAD model of the articulated joint mechanism connecting two screw propulsion modules</em>
+</p>
+
 ---
 
 ## 🛠️ CAD Models
@@ -134,6 +140,12 @@ The build is organized into three stages: **mechanical construction**, **electro
 - Outer shell is 3D-printed (PLA filament) and coupled to the gearbox output for screw-like propulsion.
 - Four segments are interconnected via servo-driven joints (16 kgcm dual-shaft servos) mounted on aluminium brackets fixed to the inner pipe.
 - A detachable auger drill head, driven by an independent DC geared motor, is mounted on the front segment for initial snow penetration.
+
+<p align="center">
+  <img src="docs/images/mechanical_assembly.jpg" alt="Early-stage mechanical assembly of the Snow Burrowing Bot" width="600"/>
+  <br/>
+  <em>Early-stage mechanical assembly showing PVC backbone segments, geared joint mechanism, and servo-based articulation used for inter-segment motion</em>
+</p>
 
 ### 2. Electronic Integration
 
@@ -246,7 +258,9 @@ snow-burrowing-bot/
 ├── docs/
 │   ├── Snow_Burrowing_Bot.pdf
 │   └── images/
-│       └── snow_burrowing_bot.jpg
+│       ├── snow_burrowing_bot.jpg
+│       ├── joint_mechanism.jpg
+│       └── mechanical_assembly.jpg
 ├── LICENSE                  # MIT (firmware)
 ├── LICENSE-HARDWARE         # CERN-OHL-S (hardware/design files)
 └── README.md
