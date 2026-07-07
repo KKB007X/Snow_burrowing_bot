@@ -2,10 +2,6 @@
 
 **A modular, snake-like, screw-driven robot for subsurface locomotion and avalanche search & rescue**
 
-[![License: MIT](https://img.shields.io/badge/Firmware%20License-MIT-yellow.svg)](LICENSE)
-[![Hardware License: CERN-OHL-S](https://img.shields.io/badge/Hardware%20License-CERN--OHL--S-blue.svg)](https://ohwr.org/cern_ohl_s_v2.txt)
-[![Status](https://img.shields.io/badge/status-proof--of--concept-orange.svg)]()
-
 > Developed at the **Indian Institute of Technology, Mandi** — School of Mechanical & Materials Engineering, School of Biosciences and Bioengineering, School of Computing and Electrical Engineering, and School of Civil and Environmental Engineering.
 
 <p align="center">
